@@ -1,5 +1,6 @@
 from selenium import webdriver
 from time import sleep
+import os
 from utility import ApplicationIndependent
 '''
 Created By:
@@ -10,9 +11,24 @@ Parameters:
 return Type:
 Purpose:
 '''
-def CreateCustomer(self):
+def createCustomer(self):
     status='Fail'
     ApplicationIndependent.writeLog("The Create Customer execution is started:" + ApplicationIndependent.getDateTime(), "info")
+    try:
+        self.oBrowser.find_element_by_xpath("//*[@id='topnav']/tbody/tr[1]/td[3]/a").click()
+        sleep(2)
+        self.oBrowser.find_element_by_xpath("//*[@id='cpTreeBlock']/div[2]/div[1]/div[2]/div").click()
+        sleep(3)
+        self.oBrowser.find_element_by_xpath("/html/body/div[12]/div[1]").click()
+        sleep(2)
+        self.oBrowser.find_element_by_xpath("//*[@id='customerLightBox_nameField']").send_keys(os.environ.get('NewCustomer', -1))
+        sleep(2)
+        self.oBrowser.find_element_by_xpath("//*[@id='customerLightBox_descriptionField']").send_keys(os.environ.get('CustomerDiscrption', -1))
+        sleep(2)
+        self.oBrowser.find_element_by_xpath("//*[@id='customerLightBox_commitBtn']/div")
+    except Exception as e:
+        ApplicationIndependent.writeLog("There is an error raised during the execution of the Method createUser,Exception :" + e)
+    ApplicationIndependent.writeLog("The createUser function has ended execution at :" + ApplicationIndependent.getDateTime(), "info")
     return status
 
 '''
