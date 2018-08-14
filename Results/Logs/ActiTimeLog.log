@@ -1,0 +1,256 @@
+INFO:root:The LaunchBrowser function has started execution at :2018-08-13 12:10:51.739981
+INFO:root:The LaunchBrowser function has ended execution at :2018-08-13 12:10:55.656406
+INFO:root:The Execution status of method Initialize.LaunchBrowser(self) from Scenario  Login :Pass
+INFO:root:The navigate function has started execution at :2018-08-13 12:10:55.657408
+INFO:root:The navigate function has ended execution at :2018-08-13 12:10:59.947945
+INFO:root:The LaunchBrowser function has started execution at :2018-08-13 13:26:20.122745
+INFO:root:The LaunchBrowser function has ended execution at :2018-08-13 13:26:23.708979
+INFO:root:The Execution status of method Initialize.LaunchBrowser(self) from Scenario  Login :Pass
+INFO:root:The navigate function has started execution at :2018-08-13 13:26:23.728419
+INFO:root:The navigate function has ended execution at :2018-08-13 13:26:28.050225
+INFO:root:The LaunchBrowser function has started execution at :2018-08-13 14:23:51.526756
+INFO:root:The LaunchBrowser function has ended execution at :2018-08-13 14:23:55.412282
+INFO:root:The Execution status of method Initialize.LaunchBrowser(self) from Scenario  Login :Pass
+INFO:root:The navigate function has started execution at :2018-08-13 14:23:55.412781
+INFO:root:The navigate function has ended execution at :2018-08-13 14:23:58.731444
+INFO:root:The Execution status of method Initialize.navigate(self) from Scenario  Login :Pass
+INFO:root:The login function has started execution at :2018-08-13 14:23:58.731444
+INFO:root:The login function has ended execution at :2018-08-13 14:24:02.926640
+INFO:root:The Execution status of method LoginLogout.login(self) from Scenario  Login :Pass
+INFO:root:The logout function has started execution at :2018-08-13 14:24:02.926640
+INFO:root:The Execution status of method LoginLogout.logout(self) from Scenario  Login :Pass
+INFO:root:The closeApplication function has started execution at :2018-08-13 14:24:07.160238
+INFO:root:The closeApplication function has started execution at :2018-08-13 14:24:09.468256
+INFO:root:The Execution status of method Initialize.closeApplication(self) from Scenario  Login :Pass
+INFO:root:+++++++++++++++++++++++++++++++++++++
+INFO:root:The LaunchBrowser function has started execution at :2018-08-13 14:24:09.750256
+INFO:root:The LaunchBrowser function has ended execution at :2018-08-13 14:24:13.231136
+INFO:root:The Execution status of method Initialize.LaunchBrowser(self) from Scenario  CreateUser :Pass
+INFO:root:The navigate function has started execution at :2018-08-13 14:24:13.231136
+INFO:root:The navigate function has ended execution at :2018-08-13 14:24:16.274417
+INFO:root:The Execution status of method Initialize.navigate(self) from Scenario  CreateUser :Pass
+INFO:root:The login function has started execution at :2018-08-13 14:24:16.275419
+INFO:root:The login function has ended execution at :2018-08-13 14:24:20.456446
+INFO:root:The Execution status of method LoginLogout.login(self) from Scenario  CreateUser :Pass
+INFO:root:The createUser function has started execution at :2018-08-13 14:24:20.456446
+INFO:root:The LaunchBrowser function has started execution at :2018-08-13 14:59:48.530460
+INFO:root:The LaunchBrowser function has ended execution at :2018-08-13 15:01:00.081103
+INFO:root:The Execution status of method Initialize.LaunchBrowser(self) from Scenario  Login :Pass
+INFO:root:The navigate function has started execution at :2018-08-13 15:01:27.220067
+INFO:root:The navigate function has ended execution at :2018-08-13 15:01:30.699976
+INFO:root:The Execution status of method Initialize.navigate(self) from Scenario  Login :Pass
+INFO:root:The login function has started execution at :2018-08-13 15:01:40.418602
+INFO:root:The login function has ended execution at :2018-08-13 15:01:44.635856
+INFO:root:The Execution status of method LoginLogout.login(self) from Scenario  Login :Pass
+INFO:root:The logout function has started execution at :2018-08-13 15:01:55.296727
+INFO:root:The Execution status of method LoginLogout.logout(self) from Scenario  Login :Pass
+INFO:root:The closeApplication function has started execution at :2018-08-13 15:02:05.833214
+INFO:root:The closeApplication function has started execution at :2018-08-13 15:02:08.175757
+INFO:root:The Execution status of method Initialize.closeApplication(self) from Scenario  Login :Pass
+INFO:root:+++++++++++++++++++++++++++++++++++++
+INFO:root:The LaunchBrowser function has started execution at :2018-08-13 15:03:15.394399
+INFO:root:The LaunchBrowser function has ended execution at :2018-08-13 15:03:19.193049
+INFO:root:The Execution status of method Initialize.LaunchBrowser(self) from Scenario  CreateUser :Pass
+INFO:root:The navigate function has started execution at :2018-08-13 15:03:28.263266
+INFO:root:The navigate function has ended execution at :2018-08-13 15:03:32.142482
+INFO:root:The Execution status of method Initialize.navigate(self) from Scenario  CreateUser :Pass
+INFO:root:The login function has started execution at :2018-08-13 15:03:42.043100
+INFO:root:The login function has ended execution at :2018-08-13 15:03:46.249053
+INFO:root:The Execution status of method LoginLogout.login(self) from Scenario  CreateUser :Pass
+INFO:root:The createUser function has started execution at :2018-08-13 15:03:53.078081
+INFO:root:The LaunchBrowser function has started execution at :2018-08-13 15:56:13.779920
+INFO:root:The LaunchBrowser function has ended execution at :2018-08-13 15:56:17.361028
+INFO:root:The Execution status of method Initialize.LaunchBrowser(self) from Scenario  Login :Pass
+INFO:root:The navigate function has started execution at :2018-08-13 15:56:17.361028
+INFO:root:The navigate function has ended execution at :2018-08-13 15:56:20.372580
+INFO:root:The Execution status of method Initialize.navigate(self) from Scenario  Login :Pass
+INFO:root:The login function has started execution at :2018-08-13 15:56:20.372580
+INFO:root:The login function has ended execution at :2018-08-13 15:56:24.577908
+INFO:root:The Execution status of method LoginLogout.login(self) from Scenario  Login :Pass
+INFO:root:The logout function has started execution at :2018-08-13 15:56:24.578876
+INFO:root:The Execution status of method LoginLogout.logout(self) from Scenario  Login :Pass
+INFO:root:The closeApplication function has started execution at :2018-08-13 15:56:28.815686
+INFO:root:The closeApplication function has started execution at :2018-08-13 15:56:31.160936
+INFO:root:The Execution status of method Initialize.closeApplication(self) from Scenario  Login :Pass
+INFO:root:+++++++++++++++++++++++++++++++++++++
+INFO:root:The LaunchBrowser function has started execution at :2018-08-13 15:56:31.280928
+INFO:root:The LaunchBrowser function has ended execution at :2018-08-13 15:56:34.860208
+INFO:root:The Execution status of method Initialize.LaunchBrowser(self) from Scenario  CreateUser :Pass
+INFO:root:The navigate function has started execution at :2018-08-13 15:56:34.861184
+INFO:root:The navigate function has ended execution at :2018-08-13 15:56:37.924040
+INFO:root:The Execution status of method Initialize.navigate(self) from Scenario  CreateUser :Pass
+INFO:root:The login function has started execution at :2018-08-13 15:56:37.924040
+INFO:root:The login function has ended execution at :2018-08-13 15:56:42.129240
+INFO:root:The Execution status of method LoginLogout.login(self) from Scenario  CreateUser :Pass
+INFO:root:The createUser function has started execution at :2018-08-13 15:56:42.130241
+INFO:root:The LaunchBrowser function has started execution at :2018-08-13 15:57:41.438366
+INFO:root:The LaunchBrowser function has ended execution at :2018-08-13 15:57:44.919835
+INFO:root:The Execution status of method Initialize.LaunchBrowser(self) from Scenario  Login :Pass
+INFO:root:The navigate function has started execution at :2018-08-13 15:57:44.919835
+INFO:root:The navigate function has ended execution at :2018-08-13 15:57:48.003514
+INFO:root:The Execution status of method Initialize.navigate(self) from Scenario  Login :Pass
+INFO:root:The login function has started execution at :2018-08-13 15:57:48.003514
+INFO:root:The login function has ended execution at :2018-08-13 15:57:53.071260
+INFO:root:The Execution status of method LoginLogout.login(self) from Scenario  Login :Pass
+INFO:root:The logout function has started execution at :2018-08-13 15:57:53.071260
+INFO:root:The Execution status of method LoginLogout.logout(self) from Scenario  Login :Pass
+INFO:root:The closeApplication function has started execution at :2018-08-13 15:57:57.295971
+INFO:root:The closeApplication function has started execution at :2018-08-13 15:57:59.673865
+INFO:root:The Execution status of method Initialize.closeApplication(self) from Scenario  Login :Pass
+INFO:root:+++++++++++++++++++++++++++++++++++++
+INFO:root:The LaunchBrowser function has started execution at :2018-08-13 15:57:59.821859
+INFO:root:The LaunchBrowser function has ended execution at :2018-08-13 15:58:03.335411
+INFO:root:The Execution status of method Initialize.LaunchBrowser(self) from Scenario  CreateUser :Pass
+INFO:root:The navigate function has started execution at :2018-08-13 15:58:03.336401
+INFO:root:The navigate function has ended execution at :2018-08-13 15:58:06.763540
+INFO:root:The Execution status of method Initialize.navigate(self) from Scenario  CreateUser :Pass
+INFO:root:The login function has started execution at :2018-08-13 15:58:06.764538
+INFO:root:The login function has ended execution at :2018-08-13 15:58:10.968229
+INFO:root:The Execution status of method LoginLogout.login(self) from Scenario  CreateUser :Pass
+INFO:root:The createUser function has started execution at :2018-08-13 15:58:10.969246
+INFO:root:The LaunchBrowser function has started execution at :2018-08-13 16:03:13.185020
+INFO:root:The LaunchBrowser function has ended execution at :2018-08-13 16:03:16.781300
+INFO:root:The Execution status of method Initialize.LaunchBrowser(self) from Scenario  Login :Pass
+INFO:root:The navigate function has started execution at :2018-08-13 16:03:16.781300
+INFO:root:The navigate function has ended execution at :2018-08-13 16:03:19.780797
+INFO:root:The Execution status of method Initialize.navigate(self) from Scenario  Login :Pass
+INFO:root:The login function has started execution at :2018-08-13 16:03:19.780797
+INFO:root:The login function has ended execution at :2018-08-13 16:03:23.975880
+INFO:root:The Execution status of method LoginLogout.login(self) from Scenario  Login :Pass
+INFO:root:The logout function has started execution at :2018-08-13 16:03:23.975880
+INFO:root:The logout function has ended execution at :2018-08-13 16:03:28.222199
+INFO:root:The Execution status of method LoginLogout.logout(self) from Scenario  Login :Pass
+INFO:root:The closeApplication function has started execution at :2018-08-13 16:03:28.222199
+INFO:root:The closeApplication function has started execution at :2018-08-13 16:03:30.531698
+INFO:root:The Execution status of method Initialize.closeApplication(self) from Scenario  Login :Pass
+INFO:root:+++++++++++++++++++++++++++++++++++++
+INFO:root:The LaunchBrowser function has started execution at :2018-08-13 16:03:30.635696
+INFO:root:The LaunchBrowser function has ended execution at :2018-08-13 16:03:34.296424
+INFO:root:The Execution status of method Initialize.LaunchBrowser(self) from Scenario  CreateUser :Pass
+INFO:root:The navigate function has started execution at :2018-08-13 16:03:34.296424
+INFO:root:The navigate function has ended execution at :2018-08-13 16:03:37.359139
+INFO:root:The Execution status of method Initialize.navigate(self) from Scenario  CreateUser :Pass
+INFO:root:The login function has started execution at :2018-08-13 16:03:37.360138
+INFO:root:The login function has ended execution at :2018-08-13 16:03:42.867278
+INFO:root:The Execution status of method LoginLogout.login(self) from Scenario  CreateUser :Pass
+INFO:root:The createUser function has started execution at :2018-08-13 16:03:42.867278
+INFO:root:The LaunchBrowser function has started execution at :2018-08-13 16:04:27.908544
+ERROR:root:The Driver Object has not created successfully!!!!
+INFO:root:The LaunchBrowser function has ended execution at :2018-08-13 16:04:31.430911
+INFO:root:The Execution status of method Initialize.LaunchBrowser(self) from Scenario  Login :Pass
+INFO:root:The navigate function has started execution at :2018-08-13 16:04:31.430911
+INFO:root:The LaunchBrowser function has started execution at :2018-08-13 16:05:51.731947
+INFO:root:The LaunchBrowser function has ended execution at :2018-08-13 16:05:55.271820
+INFO:root:The Execution status of method Initialize.LaunchBrowser(self) from Scenario  Login :Pass
+INFO:root:The navigate function has started execution at :2018-08-13 16:05:55.272821
+INFO:root:The navigate function has ended execution at :2018-08-13 16:05:58.285496
+INFO:root:The Execution status of method Initialize.navigate(self) from Scenario  Login :Pass
+INFO:root:The login function has started execution at :2018-08-13 16:05:58.286496
+INFO:root:The login function has ended execution at :2018-08-13 16:06:02.482494
+INFO:root:The Execution status of method LoginLogout.login(self) from Scenario  Login :Pass
+INFO:root:The logout function has started execution at :2018-08-13 16:06:02.483472
+INFO:root:The logout function has ended execution at :2018-08-13 16:06:06.766242
+INFO:root:The Execution status of method LoginLogout.logout(self) from Scenario  Login :Pass
+INFO:root:The closeApplication function has started execution at :2018-08-13 16:06:06.768241
+INFO:root:The closeApplication function has started execution at :2018-08-13 16:06:09.126450
+INFO:root:The Execution status of method Initialize.closeApplication(self) from Scenario  Login :Pass
+INFO:root:+++++++++++++++++++++++++++++++++++++
+INFO:root:The LaunchBrowser function has started execution at :2018-08-13 16:06:09.428454
+INFO:root:The LaunchBrowser function has ended execution at :2018-08-13 16:06:13.016130
+INFO:root:The Execution status of method Initialize.LaunchBrowser(self) from Scenario  CreateUser :Pass
+INFO:root:The navigate function has started execution at :2018-08-13 16:06:13.017130
+INFO:root:The navigate function has ended execution at :2018-08-13 16:06:16.313206
+INFO:root:The Execution status of method Initialize.navigate(self) from Scenario  CreateUser :Pass
+INFO:root:The login function has started execution at :2018-08-13 16:06:16.314205
+INFO:root:The login function has ended execution at :2018-08-13 16:06:21.823214
+INFO:root:The Execution status of method LoginLogout.login(self) from Scenario  CreateUser :Pass
+INFO:root:The createUser function has started execution at :2018-08-13 16:06:45.529957
+INFO:root:The LaunchBrowser function has started execution at :2018-08-13 16:45:49.432575
+INFO:root:The LaunchBrowser function has ended execution at :2018-08-13 16:45:53.472665
+INFO:root:The Execution status of method Initialize.LaunchBrowser(self) from Scenario  Login :Pass
+INFO:root:The navigate function has started execution at :2018-08-13 16:45:53.472665
+INFO:root:The navigate function has ended execution at :2018-08-13 16:45:58.144767
+INFO:root:The Execution status of method Initialize.navigate(self) from Scenario  Login :Pass
+INFO:root:The login function has started execution at :2018-08-13 16:45:58.144767
+INFO:root:The login function has ended execution at :2018-08-13 16:46:02.330642
+INFO:root:The Execution status of method LoginLogout.login(self) from Scenario  Login :Pass
+INFO:root:The logout function has started execution at :2018-08-13 16:46:02.330642
+INFO:root:The logout function has ended execution at :2018-08-13 16:46:06.623407
+INFO:root:The Execution status of method LoginLogout.logout(self) from Scenario  Login :Pass
+INFO:root:The closeApplication function has started execution at :2018-08-13 16:46:06.623407
+INFO:root:The closeApplication function has started execution at :2018-08-13 16:46:06.962406
+INFO:root:The Execution status of method Initialize.closeApplication(self) from Scenario  Login :Pass
+INFO:root:+++++++++++++++++++++++++++++++++++++
+INFO:root:The LaunchBrowser function has started execution at :2018-08-13 16:46:07.070406
+INFO:root:The LaunchBrowser function has ended execution at :2018-08-13 16:46:10.789483
+INFO:root:The Execution status of method Initialize.LaunchBrowser(self) from Scenario  CreateUser :Pass
+INFO:root:The navigate function has started execution at :2018-08-13 16:46:10.789483
+INFO:root:The navigate function has ended execution at :2018-08-13 16:46:13.851802
+INFO:root:The Execution status of method Initialize.navigate(self) from Scenario  CreateUser :Pass
+INFO:root:The login function has started execution at :2018-08-13 16:46:13.851802
+INFO:root:The login function has ended execution at :2018-08-13 16:46:18.049099
+INFO:root:The Execution status of method LoginLogout.login(self) from Scenario  CreateUser :Pass
+INFO:root:The createUser function has started execution at :2018-08-13 16:46:18.049099
+INFO:root:The LaunchBrowser function has started execution at :2018-08-13 16:47:10.946028
+INFO:root:The LaunchBrowser function has ended execution at :2018-08-13 16:47:14.475060
+INFO:root:The Execution status of method Initialize.LaunchBrowser(self) from Scenario  Login :Pass
+INFO:root:The navigate function has started execution at :2018-08-13 16:47:14.476063
+INFO:root:The navigate function has ended execution at :2018-08-13 16:47:18.048272
+INFO:root:The Execution status of method Initialize.navigate(self) from Scenario  Login :Pass
+INFO:root:The login function has started execution at :2018-08-13 16:47:18.048272
+INFO:root:The login function has ended execution at :2018-08-13 16:47:22.250225
+INFO:root:The Execution status of method LoginLogout.login(self) from Scenario  Login :Pass
+INFO:root:The logout function has started execution at :2018-08-13 16:47:22.250225
+INFO:root:The logout function has ended execution at :2018-08-13 16:47:26.482973
+INFO:root:The Execution status of method LoginLogout.logout(self) from Scenario  Login :Pass
+INFO:root:The closeApplication function has started execution at :2018-08-13 16:47:26.483998
+INFO:root:The closeApplication function has started execution at :2018-08-13 16:47:28.794192
+INFO:root:The Execution status of method Initialize.closeApplication(self) from Scenario  Login :Pass
+INFO:root:+++++++++++++++++++++++++++++++++++++
+INFO:root:The LaunchBrowser function has started execution at :2018-08-13 16:47:28.891194
+INFO:root:The LaunchBrowser function has ended execution at :2018-08-13 16:47:32.588295
+INFO:root:The Execution status of method Initialize.LaunchBrowser(self) from Scenario  CreateUser :Pass
+INFO:root:The navigate function has started execution at :2018-08-13 16:47:32.589294
+INFO:root:The navigate function has ended execution at :2018-08-13 16:47:35.715507
+INFO:root:The Execution status of method Initialize.navigate(self) from Scenario  CreateUser :Pass
+INFO:root:The login function has started execution at :2018-08-13 16:47:35.716507
+INFO:root:The login function has ended execution at :2018-08-13 16:47:39.917063
+INFO:root:The Execution status of method LoginLogout.login(self) from Scenario  CreateUser :Pass
+INFO:root:The createUser function has started execution at :2018-08-13 16:47:39.917063
+INFO:root:The createUser function has ended execution at :2018-08-13 16:47:59.779051
+INFO:root:The Execution status of method Users.createUser(self) from Scenario  CreateUser :Pass
+INFO:root:The deleteUser function has started execution at :2018-08-13 16:47:59.779051
+INFO:root:The deleteUser function has ended execution at :2018-08-13 16:48:07.921080
+INFO:root:The Execution status of method Users.deleteUser(self) from Scenario  CreateUser :Pass
+INFO:root:The logout function has started execution at :2018-08-13 16:48:07.921080
+INFO:root:The logout function has ended execution at :2018-08-13 16:48:12.188109
+INFO:root:The Execution status of method LoginLogout.logout(self) from Scenario  CreateUser :Pass
+INFO:root:The closeApplication function has started execution at :2018-08-13 16:48:12.189110
+INFO:root:The closeApplication function has started execution at :2018-08-13 16:48:14.502125
+INFO:root:The Execution status of method Initialize.closeApplication(self) from Scenario  CreateUser :Pass
+INFO:root:+++++++++++++++++++++++++++++++++++++
+INFO:root:The LaunchBrowser function has started execution at :2018-08-13 16:48:14.613124
+INFO:root:The LaunchBrowser function has ended execution at :2018-08-13 16:48:18.599151
+INFO:root:The Execution status of method Initialize.LaunchBrowser(self) from Scenario  ModifyUser :Pass
+INFO:root:The navigate function has started execution at :2018-08-13 16:48:18.599151
+INFO:root:The navigate function has ended execution at :2018-08-13 16:48:22.310177
+INFO:root:The Execution status of method Initialize.navigate(self) from Scenario  ModifyUser :Pass
+INFO:root:The login function has started execution at :2018-08-13 16:48:22.310177
+INFO:root:The login function has ended execution at :2018-08-13 16:48:27.399411
+INFO:root:The Execution status of method LoginLogout.login(self) from Scenario  ModifyUser :Pass
+INFO:root:The createUser function has started execution at :2018-08-13 16:48:27.399411
+INFO:root:The createUser function has ended execution at :2018-08-13 16:48:46.610627
+INFO:root:The Execution status of method Users.createUser(self) from Scenario  ModifyUser :Pass
+INFO:root:The modifyUser function has started execution at :2018-08-13 16:48:46.610627
+INFO:root:The modifyUser function has ended execution at :2018-08-13 16:49:01.008492
+INFO:root:The Execution status of method Users.modifyUser(self) from Scenario  ModifyUser :Pass
+INFO:root:The deleteUser function has started execution at :2018-08-13 16:49:01.008492
+INFO:root:The deleteUser function has ended execution at :2018-08-13 16:49:09.123702
+INFO:root:The Execution status of method Users.deleteUser(self) from Scenario  ModifyUser :Pass
+INFO:root:The logout function has started execution at :2018-08-13 16:49:09.123702
+INFO:root:The logout function has ended execution at :2018-08-13 16:49:13.429756
+INFO:root:The Execution status of method LoginLogout.logout(self) from Scenario  ModifyUser :Pass
+INFO:root:The closeApplication function has started execution at :2018-08-13 16:49:13.429756
+INFO:root:The closeApplication function has started execution at :2018-08-13 16:49:15.799959
+INFO:root:The Execution status of method Initialize.closeApplication(self) from Scenario  ModifyUser :Pass
+INFO:root:+++++++++++++++++++++++++++++++++++++
