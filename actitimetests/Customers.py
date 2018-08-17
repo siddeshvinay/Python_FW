@@ -58,6 +58,7 @@ def modifyCustomer(self):
     ApplicationIndependent.writeLog("The modifyCustomer function has ended execution at :" + ApplicationIndependent.getDateTime(), "info")
     return status
 
+
 '''
 Created By:
 Created Date:
@@ -67,6 +68,8 @@ Parameters:
 return Type:
 Purpose:
 '''
+
+
 def deleteCustomer(self):
     status='Fail'
     ApplicationIndependent.writeLog("To Delete the customer if it is archived" + ApplicationIndependent.getDateTime() +"info")
@@ -87,8 +90,8 @@ def deleteCustomer(self):
         else:
             ApplicationIndependent.writeLog("The customer is not archived, hence could not delete" + ApplicationIndependent.getDateTime() + "info")
     except Exception as e:
-        ApplicationIndependent.writeLog(
-            "There is an error raised during the execution of the Method Delete Customer,Exception :" + e)
+        ApplicationIndependent.writeLog("There is an error raised during the execution of the Method Delete Customer,Exception :" + e)
     ApplicationIndependent.writeLog("The DeleteCustomer function has ended execution at :" + ApplicationIndependent.getDateTime(), "info")
+
     return status
 
