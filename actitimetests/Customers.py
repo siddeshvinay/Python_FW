@@ -70,5 +70,27 @@ return Type:
 Purpose:
 '''
 def deleteCustomer(self):
-    pass
+    status='Fail'
+    ApplicationIndependent.writeLog("To Delete the customer if it is archived" + ApplicationIndependent.getDateTime() +"info")
+    try:
+        self.oBrowser.find_element_by_xpath("//table[@class='containerTable']/tbody/tr/td/div/input[@placeholder='Start typing name ...']").send_keys(os.environ.get('NewCustomer', -1))
+        sleep(2)
+        isarchived=self.oBrowser.find_element_by_xpath("//*[@id='cpTreeBlock']/div[2]/div[2]/div/div[3]/div/div[1]/div[2]/div[2]/div/span[@class='archived']").get_attribute()
+        if isarchived=='archived':
+            # then customer should delete
+            self.oBrowser.find_element_by_xpath("//*[@id='cpTreeBlock']/div[2]/div[2]/div/div[3]/div/div[1]/div[2]/div[2]/div[4]").clcick()
+            sleep(3)
+            self.oBrowser.find_element_by_xpath("//div[@class='actions']/div/div[@class='actionButton']").click()
+            sleep(2)
+            self.oBrowser.find_element_by_xpath("//div[@class='deleteButton']/div[text()='Delete']").click()
+            sleep(2)
+            self.oBrowser.find_element_by_xpath("//span[@id='customerPanel_deleteConfirm_submitTitle']").click()
+            sleep(3)
+        else:
+            ApplicationIndependent.writeLog("The customer is not archived, hence could not delete" + ApplicationIndependent.getDateTime() + "info")
+    except Exception as e:
+        ApplicationIndependent.writeLog(
+            "There is an error raised during the execution of the Method Delete Customer,Exception :" + e)
+    ApplicationIndependent.writeLog("The DeleteCustomer function has ended execution at :" + ApplicationIndependent.getDateTime(), "info")
+    return status
 
