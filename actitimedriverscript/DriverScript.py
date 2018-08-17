@@ -1,4 +1,4 @@
-from actitimetests import Initialize,LoginLogout,Users
+from actitimetests import Initialize,LoginLogout,Users,Customers
 from selenium import webdriver
 from utility import ApplicationIndependent,Configuration,ReportUtil
 from datatableutil import Datatable
@@ -69,8 +69,7 @@ class DriverScript(unittest.TestCase):
                         ApplicationIndependent.captureScreenShot(ScreenshorName)
                     else:
                         listscreenshot.append("")
-                    ApplicationIndependent.writeLog("The Execution status of method " + method + " from Scenario  " + testcasename + " :" + str(
-                            resultStatus), "info");
+                    ApplicationIndependent.writeLog("The Execution status of method " + method + " from Scenario  " + testcasename + " :" + str(resultStatus), "info");
 
                 endTime = ApplicationIndependent.getDateTime()
                 detailResultFileName=ReportUtil.writeDeatilTestResults(testcasename,listtestscriptid,listtsdescription,methods,liststatus,listscreenshot)
