@@ -42,7 +42,22 @@ return Type:
 Purpose:
 '''
 def modifyCustomer(self):
-    pass
+    status='Fail'
+    ApplicationIndependent.writeLog("The Created Customer is to be modified:" + ApplicationIndependent.getDateTime(), "info")
+    try:
+        self.oBrowser.find_element_by_xpath("//table[@class='containerTable']/tbody/tr/td/div/input[@placeholder='Start typing name ...']").send_keys(os.environ.get('NewCustomer', -1))
+        sleep(2)
+        self.oBrowser.find_element_by_xpath("//div[@class='node customerNode selected']/div[4][@class='editButton available']").click()
+        sleep(3)
+        self.oBrowser.find_element_by_xpath("//div[@class='statusButton']/div/div[@class='active']").click()
+        sleep(3)
+        self.oBrowser.find_element_by_xpath("//div[@class='dropdownContainer customerStatusMenu active']/div[@class='item archivedContainer']/div").click()
+        sleep(3)
+    except Exception as e:
+        ApplicationIndependent.writeLog("There is an error raised during the execution of the Method createUser,Exception :" + e)
+    ApplicationIndependent.writeLog("The modifyCustomer function has ended execution at :" + ApplicationIndependent.getDateTime(), "info")
+    return status
+
 
 
 '''
