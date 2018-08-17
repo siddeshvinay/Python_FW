@@ -25,7 +25,8 @@ def createCustomer(self):
         sleep(2)
         self.oBrowser.find_element_by_xpath("//*[@id='customerLightBox_descriptionField']").send_keys(os.environ.get('CustomerDiscrption', -1))
         sleep(2)
-        self.oBrowser.find_element_by_xpath("//*[@id='customerLightBox_commitBtn']/div")
+        self.oBrowser.find_element_by_xpath("//div[@id='customerLightBox_commitBtn']/div/span[text()= 'Create Customer']").click()
+        sleep(3)
     except Exception as e:
         ApplicationIndependent.writeLog("There is an error raised during the execution of the Method createUser,Exception :" + e)
     ApplicationIndependent.writeLog("The createUser function has ended execution at :" + ApplicationIndependent.getDateTime(), "info")
