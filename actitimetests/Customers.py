@@ -58,8 +58,6 @@ def modifyCustomer(self):
     ApplicationIndependent.writeLog("The modifyCustomer function has ended execution at :" + ApplicationIndependent.getDateTime(), "info")
     return status
 
-
-
 '''
 Created By:
 Created Date:
