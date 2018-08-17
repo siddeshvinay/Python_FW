@@ -63,10 +63,11 @@ class DriverScript(unittest.TestCase):
                     resultStatus =eval(method)
                     liststatus.append(resultStatus)
                     if (resultStatus=="Fail"):
-                        ScreenshorPath=Configuration.ScreenshotPath+""
-                        ScreenshorName = ScreenshorPath + "ScreenShot_" + testcasename + "_" + testscriptid + "_" + method + ".jpg";
-                        listscreenshot.append(ScreenshorName)
-                        ApplicationIndependent.captureScreenShot(ScreenshorName)
+                        pass
+                        #ScreenshorPath=Configuration.ScreenshotPath+""
+                        #ScreenshorName = ScreenshorPath + "ScreenShot_" + testcasename + "_" + testscriptid + "_" + method + ".jpg";
+                        #listscreenshot.append(ScreenshorName)
+                        #ApplicationIndependent.captureScreenShot(ScreenshorName)
                     else:
                         listscreenshot.append("")
                     ApplicationIndependent.writeLog("The Execution status of method " + method + " from Scenario  " + testcasename + " :" + str(resultStatus), "info");
@@ -79,6 +80,7 @@ class DriverScript(unittest.TestCase):
                 else:
                     ReportUtil.writeSummaryTestResults(ReportFileName, detailResultFileName, testcaseid, testcasename,"Passed", startTime, endTime)
                 ApplicationIndependent.writeLog("+++++++++++++++++++++++++++++++++++++","info")
+
 
 
     def tearDown(self):
