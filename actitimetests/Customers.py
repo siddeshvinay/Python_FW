@@ -72,15 +72,17 @@ Purpose:
 
 def deleteCustomer(self):
     status='Fail'
-    ApplicationIndependent.writeLog("To Delete the customer if it is archived" + ApplicationIndependent.getDateTime() +"info")
+    ApplicationIndependent.writeLog("To Delete the customer if it is archived" + ApplicationIndependent.getDateTime(), "info")
     try:
+        self.oBrowser.find_element_by_xpath("//table[@class='containerTable']/tbody/tr/td/div/input[@placeholder='Start typing name ...']").clear()
+        sleep(2)
         self.oBrowser.find_element_by_xpath("//table[@class='containerTable']/tbody/tr/td/div/input[@placeholder='Start typing name ...']").send_keys(os.environ.get('NewCustomer', -1))
         sleep(2)
-        isarchived=self.oBrowser.find_element_by_xpath("//*[@id='cpTreeBlock']/div[2]/div[2]/div/div[3]/div/div[1]/div[2]/div[2]/div/span[@class='archived']").get_attribute()
+        isarchived=self.oBrowser.find_element_by_xpath("//*[@id='cpTreeBlock']/div[2]/div[2]/div/div[3]/div/div[1]/div[2]/div[2]/div/span[@class='archived']").get_attribute('class')
         if isarchived=='archived':
             # then customer should delete
-            self.oBrowser.find_element_by_xpath("//*[@id='cpTreeBlock']/div[2]/div[2]/div/div[3]/div/div[1]/div[2]/div[2]/div[4]").clcick()
-            sleep(3)
+            # self.oBrowser.find_element_by_xpath("//*[@id='cpTreeBlock']/div[2]/div[2]/div/div[3]/div/div[1]/div[2]/div[2]/div[4]").click()
+            # sleep(3)
             self.oBrowser.find_element_by_xpath("//div[@class='actions']/div/div[@class='actionButton']").click()
             sleep(2)
             self.oBrowser.find_element_by_xpath("//div[@class='deleteButton']/div[text()='Delete']").click()
