@@ -43,8 +43,8 @@ def navigate(self):
     expected="actiTIME - Login"
     ApplicationIndependent.writeLog("The navigate function has started execution at :" + ApplicationIndependent.getDateTime(),"info")
     try:
-        #self.oBrowser.get(os.environ.get('URL', -1))
-        self.oBrowser.get("https://network-rctp.qa.gtnexus.com/")
+        self.oBrowser.get(os.environ.get('URL', -1))
+        #self.oBrowser.get("https://network-rctp.qa.gtnexus.com/")
         sleep(2)
         actual=self.oBrowser.title
         if (ApplicationIndependent.stringCompare(expected,actual)==True):
