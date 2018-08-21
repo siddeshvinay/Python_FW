@@ -6,12 +6,19 @@ from utility import ApplicationIndependent
 from TMS_ProjectSpecificScripts import Login_scripts
 
 
-def Testcase():
+def Testcase1(self):
+    Login_scripts.LaunchBrowser(self)
+    sleep(3)
+    Login_scripts.navigate(self)
+    sleep(3)
+    Login_scripts.Username(self).send_keys("sp@gtnexus")
+    sleep(2)
+    Login_scripts.password(self).send_keys("bfqFDIZWkv6st@")
+    sleep(2)
+    Login_scripts.login_button(self)
 
-    Login_scripts.login_properties()
 
-
-Testcase()
+Testcase1(webdriver)
 
 
 
