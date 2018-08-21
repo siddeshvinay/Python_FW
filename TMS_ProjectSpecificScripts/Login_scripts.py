@@ -44,7 +44,6 @@ def navigate(self):
     ApplicationIndependent.writeLog("The navigate function has started execution at :" + ApplicationIndependent.getDateTime(),"info")
     try:
         self.oBrowser.get(os.environ.get('URL', -1))
-        #self.oBrowser.get("https://network-rctp.qa.gtnexus.com/")
         sleep(2)
         actual=self.oBrowser.title
         if (ApplicationIndependent.stringCompare(expected,actual)==True):
@@ -54,11 +53,16 @@ def navigate(self):
     ApplicationIndependent.writeLog("The navigate function has ended execution at :" + ApplicationIndependent.getDateTime(),"info")
     return status
 
-# oBrowser=webdriver.Chrome()
-# sleep(2)
-# oBrowser.get("https://network-rctp.qa.gtnexus.com/")
-# oBrowser.maximize_window()
 
+'''
+Created By:
+Created Date:
+Reviewd By:
+Modified By:
+Parameters:
+return Type:
+Purpose:
+'''
 
 def Username(self):
     status = "Fail"
@@ -66,9 +70,8 @@ def Username(self):
     ApplicationIndependent.writeLog(
         "The createUser function has started execution at :" + ApplicationIndependent.getDateTime(), "info")
     try:
-        #self.oBrowser.find_element(By.XPATH, Locators.locators.user_name).clear()
-        # user_name = oBrowser.find_element(By.XPATH, Locators.locators.user_name).send_keys(os.environ.get('Username', -1))
         User_name=self.oBrowser.find_element(By.XPATH, Locators.locators.user_name)
+
     except Exception as e:
         ApplicationIndependent.writeLog(
             "There is an error raised during the execution of the Method createUser,Exception :","error")
@@ -76,7 +79,15 @@ def Username(self):
             "The createUser function has ended execution at :" + ApplicationIndependent.getDateTime(), "info")
     return User_name
 
-
+'''
+Created By:
+Created Date:
+Reviewd By:
+Modified By:
+Parameters:
+return Type:
+Purpose:
+'''
 
 def password(self):
     status = "Fail"
@@ -84,7 +95,6 @@ def password(self):
     ApplicationIndependent.writeLog(
         "The createUser function has started execution at :" + ApplicationIndependent.getDateTime(), "info")
     try:
-        #self.oBrowser.find_element(By.XPATH, Locators.locators.pass_word).clear()
         Pass_word=self.oBrowser.find_element(By.XPATH, Locators.locators.pass_word)
     except Exception as e:
         ApplicationIndependent.writeLog("There is an error raised during the execution of the Method createUser,Exception :","error")
@@ -92,6 +102,16 @@ def password(self):
             "The createUser function has ended execution at :" + ApplicationIndependent.getDateTime(), "info")
     return Pass_word
 
+
+'''
+Created By:
+Created Date:
+Reviewd By:
+Modified By:
+Parameters:
+return Type:
+Purpose:
+'''
 
 def login_button(self):
     status = "Fail"
